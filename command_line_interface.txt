@@ -1,0 +1,4 @@
+#Command Line Tool for getting blocks
+ curl '142.93.31.31:26657/block_results?height=192176'
+#Command Line to grab validator txs
+ gaiacli advanced tendermint block 192176
